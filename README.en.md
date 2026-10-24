@@ -8,7 +8,9 @@
 <p><a href="README.md">中文</a> · <a href="CONTRIBUTING.md">Contributing</a> · <a href="https://github.com/AwesomeRepoHub/awesome-index">All collections</a></p>
 </div>
 
-> **19 projects, 1.5M stars in total.** Stars, licenses and last-commit dates are pulled from the GitHub API and refreshed on 2026-10-24. Sorted by stars for reference only — popularity is not quality.
+> **30 projects, 2.3M stars in total.** Stars, licenses and last-commit dates are pulled from the GitHub API and refreshed on 2026-10-24. Sorted by stars for reference only — popularity is not quality.
+
+<sub>Reading the tables: stars and "Updated" come from the GitHub API at build time; license is read from the repository; notes in parentheses are limitations worth knowing first.</sub>
 
 ## Pick in 30 seconds
 
@@ -25,59 +27,78 @@
 - [Ready-to-run agents](#ready-to-run-agents)
 - [Data, memory and retrieval](#data-memory-and-retrieval)
 - [Learning paths](#learning-paths)
+- [Vertical agents](#vertical-agents)
 
 ## Frameworks and orchestration
 
-Pick here when you build your own agent. The real differences: graph execution, multi-agent handoff, and how well it fits an existing stack.
+_Pick here when you build your own agent. The real differences: graph execution, multi-agent handoff, and how well it fits an existing stack._
 
-| Project | What it does | Stars | License |
-|:--|:--|--:|:--|
-| [LangChain](https://github.com/langchain-ai/langchain) | The agent engineering platform. | 148k | `MIT` |
-| [AutoGen](https://github.com/microsoft/autogen) | A programming framework for agentic AI | 61.5k | `CC-BY-4.0` |
-| [CrewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI… | 60.0k | `MIT` |
-| [LangGraph](https://github.com/langchain-ai/langgraph) | Build resilient agents. | 43.8k | `MIT` |
-| [AgentScope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and trust. | 33.8k | `Apache-2.0` |
-| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent workflows | 30.2k | `MIT` |
-| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Integrate cutting-edge LLM technology quickly and easily into your apps | 28.7k | `MIT` |
+| Project | What it does | Stars | License | Updated |
+|:--|:--|--:|:--|--:|
+| [LangChain](https://github.com/langchain-ai/langchain) | The agent engineering platform. | 148k | `MIT` | 2026-10 |
+| [AutoGen](https://github.com/microsoft/autogen) | A programming framework for agentic AI | 61.5k | `CC-BY-4.0` | 2026-10 |
+| [CrewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI… | 60.0k | `MIT` | 2026-10 |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | Build resilient agents. | 43.8k | `MIT` | 2026-10 |
+| [Claude Code Agents](https://github.com/wshobson/agents) | Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity… | 41.6k | `MIT` | 2026-10 |
+| [AgentScope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and trust. | 33.8k | `Apache-2.0` | 2026-10 |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent workflows | 30.2k | `MIT` | 2026-10 |
+| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Integrate cutting-edge LLM technology quickly and easily into your apps | 28.7k | `MIT` | 2026-10 |
 
 <sub>[Back to top](#contents)</sub>
 
 ## Ready-to-run agents
 
-Deploy or plug in directly — no framework assembly required.
+_Deploy or plug in directly — no framework assembly required._
 
-| Project | What it does | Stars | License |
-|:--|:--|--:|:--|
-| [Browser Use](https://github.com/browser-use/browser-use) | Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API. | 119k | `MIT` |
-| [TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | 113k | `Apache-2.0` |
-| [Paperclip](https://github.com/paperclipai/paperclip) | The open-source app everyone uses to manage agents at work | 107k | `MIT` |
-| [DeerFlow](https://github.com/bytedance/deer-flow) | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes… | 84.3k | `MIT` |
-| [nanobot](https://github.com/HKUDS/nanobot) | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP… | 49.3k | `MIT` |
-| [AstrBot](https://github.com/AstrBotDevs/AstrBot) | AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can… | 43.0k | `AGPL-3.0` |
+| Project | What it does | Stars | License | Updated |
+|:--|:--|--:|:--|--:|
+| [Dify](https://github.com/langgenius/dify) | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on…（需自建服务） | 159k | `custom` | 2026-10 |
+| [Browser Use](https://github.com/browser-use/browser-use) | Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API. | 119k | `MIT` | 2026-10 |
+| [Paperclip](https://github.com/paperclipai/paperclip) | The open-source app everyone uses to manage agents at work | 107k | `MIT` | 2026-10 |
+| [Odysseus](https://github.com/odysseus-dev/odysseus) | Self-hosted AI workspace. | 94.3k | `AGPL-3.0` | 2026-10 |
+| [DeerFlow](https://github.com/bytedance/deer-flow) | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes… | 84.3k | `MIT` | 2026-10 |
+| [nanobot](https://github.com/HKUDS/nanobot) | Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP… | 49.3k | `MIT` | 2026-10 |
+| [CowAgent](https://github.com/zhayujie/CowAgent) | Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and… | 47.5k | `MIT` | 2026-10 |
+| [AstrBot](https://github.com/AstrBotDevs/AstrBot) | AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can… | 43.0k | `AGPL-3.0` | 2026-10 |
+| [Codewhale](https://github.com/codewhale-hq/Codewhale) | Open-source agent for the terminal written in Rust. Use any provider or model. Issues & PRs always welcome | 41.1k | `MIT` | 2026-10 |
 
 <sub>[Back to top](#contents)</sub>
 
 ## Data, memory and retrieval
 
-Most agent quality problems live here: dirty web data, broken PDF parsing, and no memory.
+_Most agent quality problems live here: dirty web data, broken PDF parsing, and no memory._
 
-| Project | What it does | Stars | License |
-|:--|:--|--:|:--|
-| [Firecrawl](https://github.com/firecrawl/firecrawl) | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 | 195k | `AGPL-3.0` |
-| [RAGFlow](https://github.com/infiniflow/ragflow) | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent… | 92.8k | `Apache-2.0` |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it… | 86.1k | `Apache-2.0` |
-| [Mem0](https://github.com/mem0ai/mem0) | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for… | 67.7k | `Apache-2.0` |
+| Project | What it does | Stars | License | Updated |
+|:--|:--|--:|:--|--:|
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥 | 195k | `AGPL-3.0` | 2026-10 |
+| [Graphify](https://github.com/Graphify-Labs/graphify) | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill… | 134k | `Apache-2.0` | 2026-10 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it… | 103k | `Apache-2.0` | 2026-10 |
+| [RAGFlow](https://github.com/infiniflow/ragflow) | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent… | 92.8k | `Apache-2.0` | 2026-10 |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it… | 86.1k | `Apache-2.0` | 2026-10 |
+| [Mem0](https://github.com/mem0ai/mem0) | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for… | 67.7k | `Apache-2.0` | 2026-10 |
+| [Serviette](https://github.com/pathwaycom/serviette) | A no-code RAG server that keeps answers in sync with your documents. Works with 8 vector databases. Built on Pathway. | 58.8k | `MIT` | 2026-10 |
 
 <sub>[Back to top](#contents)</sub>
 
 ## Learning paths
 
-Build the mental model first; you will pick the right framework faster.
+_Build the mental model first; you will pick the right framework faster._
 
-| Project | What it does | Stars | License |
-|:--|:--|--:|:--|
-| [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 18 Lessons to Get Started Building AI Agents | 77.8k | `MIT` |
-| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming | 71.0k | `MIT` |
+| Project | What it does | Stars | License | Updated |
+|:--|:--|--:|:--|--:|
+| [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | 18 Lessons to Get Started Building AI Agents | 77.8k | `MIT` | 2026-10 |
+| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming | 71.0k | `MIT` | 2026-01 |
+| [《深入理解 AI Agent》](https://github.com/bojieli/ai-agent-book) | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 | 55.6k | `Apache-2.0` | 2026-10 |
+
+<sub>[Back to top](#contents)</sub>
+
+## Vertical agents
+
+| Project | What it does | Stars | License | Updated |
+|:--|:--|--:|:--|--:|
+| [TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading Framework | 113k | `Apache-2.0` | 2026-10 |
+| [BettaFish](https://github.com/666ghj/BettaFish) | 微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。 | 42.5k | `GPL-2.0` | 2026-10 |
+| [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent" | 36.4k | `MIT` | 2026-10 |
 
 <sub>[Back to top](#contents)</sub>
 
