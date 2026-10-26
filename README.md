@@ -100,6 +100,8 @@ _先建立心智模型，再挑框架，能少走很多弯路。_
 | [BettaFish](https://github.com/666ghj/BettaFish) | 中文舆情分析多智能体，采集、分析、报告一条链，不依赖框架 | 42.5k | `GPL-2.0` | 2026-10 |
 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 个人交易 agent，接行情、出策略、做复盘 | 36.4k | `MIT` | 2026-10 |
 
+- 候选（生成后可覆盖）：[agent-qa](https://github.com/vostride/agent-qa) — 跨端自然语言测试，持久记忆与经验证的自我改进。许可证：`FSL-1.1-ALv2`；[官网](https://vostride.com)。
+
 <sub>[回到目录](#目录)</sub>
 
 ## 为什么值得看
